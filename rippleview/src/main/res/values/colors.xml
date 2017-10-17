@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="white">#ffffffff</color>
+    <color name="transgray">#33555555</color>
+    <color name="black">#ff000000</color>
+
+    <!-- 应用主色调 -->
+    <color name="ip_background_color">#efeff4</color>
+
+    <!-- title -->
+    <color name="custom_box_txt_normal">#666666</color>
+    <color name="custom_box_txt_selected">#ffffff</color>
+
+    <!-- setting -->
+    <color name="text_color">#999999</color>
+    <color name="view_color">#d8d8d8</color>
+    <color name="search_result_view_color">#cccccc</color>
+    <color name="color_aa000000">#aa000000</color>
+    <color name="pager_indicator_background">#f3f4f5</color>
+    <color name="pager_indicator_selected_background">#ebf7fc</color>
+    <color name="pager_indicator_selected_forceground">#38b3dd</color>
+    <color name="find_new_version">#e33d24</color>
+
+    <!-- login view -->
+    <color name="login_view_title_bg_color">#ffffff</color>
+    <color name="content_text_color">#6b6b6b</color>
+    <color name="body_bg_color">#f3f4f5</color>
+
+    <!-- ip detail -->
+    <color name="button_white">#ffffff</color>
+
+    <!-- checkBox text color -->
+    <color name="check_box_text_color">#cccccc</color>
+
+    <!-- 统一按钮颜色 -->
+    <color name="button_text_white_color">#ffffff</color>
+    <color name="button_normal_color">#e0e0e0</color>
+
+    <!-- 认证相关 -->
+    <color name="auth_photo_below_text">#333333</color>
+
+    <!-- 下拉刷新字体颜色 -->
+    <color name="pull_to_refresh_text_color">#999999</color>
+
+    <!-- 按钮颜色 -->
+    <color name="button_frame_color">#cccccc</color>
+    <color name="button_text_color">#f15353</color>
+
+    <!-- 输入框 -->
+    <color name="editview_text_black_color">#333333</color>
+    <color name="editview_text_color">#777777</color>
+    <color name="editview_text_hint_color">#999999</color>
+
+    <!-- search-->
+    <color name="search_text_hint">#999999</color>
+    <color name="search_text_title">#999999</color>
+    <color name="search_text_cancel">#666666</color>
+    <color name="search_text_item">#666666</color>
+
+    <!--二维码-->
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- 我上传的作品-->
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="color_000411">#000411</color>
+
+    <color name="color_4c000000">#4c000000</color>
+    <color name="color_ff4bacee">#ff4bacee</color>
+
+    <color name="category_selected_text_color">#ffffff</color>
+    <color name="category_not_selected_text_color">#333333</color>
+
+    <!-- 水波纹效果 -->
+    <color name="rippelColor">#CCCCCC</color>
+
+    <!-- 小黄条背景 -->
+    <color name="tips_bg">#ffde66</color>
+
+    <!-- chrome动画 -->
+    <color name="chrome_circle_red">#FFC93437</color>
+    <color name="chrome_circle_blue">#FF375BF1</color>
+    <color name="chrome_circle_yellow">#FFF7D23E</color>
+    <color name="chrome_circle_green">#FF34A350</color>
+
+    <!-- 订单 -->
+    <color name="order_text_black">#FF333333</color>
+    <color name="order_text_grey">#FF999999</color>
+    <color name="order_text_red">#FFFF0000</color>
+
+    <color name="line_d2d2d2">#d2d2d2</color>
+
+    <!-- 征稿列表 -->
+    <color name="color_ff3b30">#ff3b30</color>  <!-- 红色 -->
+
+    <!-- 新蓝色 -->
+    <color name="color_0076ff">#0076ff</color>
+
+    <color name="color_999BA0">#999BA0</color>
+    <color name="color_0076FF">#0076FF</color>
+    <color name="color_AFAFAF">#AFAFAF</color>
+    <color name="color_CCCDCF">#CCCDCF</color>
+    <color name="color_585858">#585858</color>
+    <color name="color_DBDBDB">#DBDBDB</color>
+    <color name="color_000000">#000000</color>
+    <color name="color_151515">#151515</color>
+    <color name="color_FFCDCA">#FFCDCA</color>
+    <color name="color_FFC800">#FFC800</color>
+    <color name="color_FF3B30">#FF3B30</color>
+
+
+</resources>

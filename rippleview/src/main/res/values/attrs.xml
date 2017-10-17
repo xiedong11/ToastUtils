@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <declare-styleable name="ImageSwitchView">
+        <attr name="default_icon" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="DefinedImageView">
+        <attr name="wh_proportion" format="float" />
+        <attr name="draw_mask" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="KPref">
+        <attr name="item_icon" format="reference" />
+        <attr name="item_title" format="string" />
+        <attr name="item_title_size" format="integer" /> <!-- unit sp, option -->
+        <attr name="item_title_btn" format="string" />
+        <attr name="item_summary" format="string" />
+        <attr name="item_summary_size" format="integer" /> <!-- unit sp, option -->
+        <attr name="item_content" format="string" />
+        <attr name="item_content_size" format="integer" /> <!-- unit sp, option -->
+        <attr name="item_checked" format="boolean" />
+        <attr name="item_prompt" format="string" /> <!-- for popup dialog title -->
+        <attr name="item_choice_mode" format="integer" /> <!-- one of @integer/single, @integer/multiple and @integer/customed -->
+        <attr name="item_barvalue" format="integer" />
+        <attr name="item_button1" format="string" />
+        <attr name="item_button2" format="string" />
+    </declare-styleable>
+
+    <!-- SlideTabWidget style -->
+    <!--
+    <declare-styleable name="SmartTabWidget">
+        <attr name="slider" format="reference" />
+        <attr name="background" format="reference" />
+        <attr name="paddingLeft" format="dimension" />
+        <attr name="paddingRight" format="dimension" />
+        <attr name="paddingTop" format="dimension" />
+        <attr name="paddingBottom" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+        </attr>
+        <attr name="textColor" format="reference|color" />
+    </declare-styleable>
+    -->
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="f_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="debugDraw" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+        <attr name="layout_verticalSpacing" format="dimension" />
+    </declare-styleable>
+
+    <!--
+         <declare-styleable name="VideoUnderlinePageIndicator">
+        Whether or not the selected indicator fades.
+        <attr name="fades" format="boolean" />
+        Length of the delay to fade the indicator.
+        <attr name="fadeDelay" format="integer" />
+        Length of the indicator fade to transparent.
+        <attr name="fadeLength" format="integer" />
+        Color of the selected line that represents the current page.
+        <attr name="selectedColor" />
+        View background
+        <attr name="android:background"/> 
+    </declare-styleable>
+    -->
+
+    <declare-styleable name="Mask">
+        <attr name="mask_layer" format="boolean" />
+        <attr name="layer_top_offset" format="integer" />
+        <attr name="layer_left_offset" format="integer" />
+        <attr name="mask_drawable" format="reference" />
+    </declare-styleable>
+    <!-- ====================== akbm attrs end ====================== -->
+
+
+    <!-- ======================kc attrs start======================== -->
+    <attr name="spaceBetweenTabs" format="dimension" />
+    <attr name="gutterPercentage" format="float" />
+    <!-- ======================kc attrs end========================== -->
+
+
+    <!-- ======================kui attrs start===================== -->
+    <declare-styleable name="MenuBarView">
+        <attr name="menuContent" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="Theme">
+
+        <!-- Standard orientation constant. -->
+        <attr name="orientation">
+
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0" />
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="gestureOverlayViewStyle" format="reference" />
+    </declare-styleable>
+
+    <!--
+    <style name="SmartTabWidget">
+        <item name="paddingLeft">13.4dip</item>
+        <item name="paddingTop">13.4dip</item>
+        <item name="paddingRight">13.4dip</item>
+        <item name="paddingBottom">3.4dip</item>
+        <item name="textSize">12sp</item>
+        <item name="textStyle">normal</item>
+        <item name="textColor">#FFFFFFFF</item>
+    </style>
+    -->
+    <!-- ======================kui attrs end======================= -->
+
+
+    <!-- Horizontal List View -->
+    <attr name="sephiroth_listViewStyle" format="reference" />
+    <attr name="sephiroth_absHListViewStyle" format="reference" />
+    <attr name="sephiroth_listPreferredItemWidth" format="dimension" />
+    <attr name="entries" format="reference" />
+
+    <declare-styleable name="HListView">
+        <attr name="android:entries" />
+        <attr name="android:divider" />
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="headerDividersEnabled" format="boolean" />
+        <attr name="footerDividersEnabled" format="boolean" />
+        <attr name="overScrollHeader" format="reference|color" />
+        <attr name="overScrollFooter" format="reference|color" />
+
+        <!--
+        When "wrap_content" is used as value of the layout_height property.
+        Pass the position, inside the adapter, of the view being used to measure the view
+        or '-1' to use the default behavior ( default is -1 )
+        -->
+        <attr name="measureWithChild" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="AbsHListView">
+        <attr name="android:listSelector" />
+        <attr name="android:smoothScrollbar" />
+        <attr name="android:drawSelectorOnTop" />
+        <attr name="android:cacheColorHint" />
+        <attr name="android:scrollingCache" />
+        <attr name="android:choiceMode" />
+        <attr name="stackFromRight" format="boolean" />
+        <attr name="transcriptMode">
+            <enum name="disabled" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="alwaysScroll" value="2" />
+        </attr>
+    </declare-styleable>
+    <!-- Horizontal List View end -->
+    <!-- chromium 32 -->
+    <attr name="select_dialog_multichoice" format="reference" />
+    <attr name="select_dialog_singlechoice" format="reference" />
+
+    <declare-styleable name="DividerGridView">
+        <attr name="horizontalLine_padding" format="dimension" />
+        <attr name="verticalLine_padding" format="dimension" />
+        <attr name="horizontalLine_show" format="boolean" />
+        <attr name="verticalLine_show" format="boolean" />
+    </declare-styleable>
+
+    <!-- Pull To Refresh Styles -->
+    <declare-styleable name="PullToRefresh">
+
+        <!-- A drawable to use as the background of the Refreshable View -->
+        <attr name="ptrRefreshableViewBackground" format="reference|color" />
+
+        <!-- A drawable to use as the background of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderBackground" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextColor" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views Sub Header -->
+        <attr name="ptrHeaderSubTextColor" format="reference|color" />
+
+        <!-- Mode of Pull-to-Refresh that should be used -->
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0" />
+            <flag name="pullFromStart" value="0x1" />
+            <flag name="pullFromEnd" value="0x2" />
+            <flag name="both" value="0x3" />
+            <flag name="manualOnly" value="0x4" />
+
+            <!-- These last two are depreacted -->
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+        </attr>
+
+        <!-- Whether the Indicator overlay(s) should be used -->
+        <attr name="ptrShowIndicator" format="reference|boolean" />
+
+        <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
+        <attr name="ptrDrawable" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableStart" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableEnd" format="reference" />
+
+        <!-- Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. -->
+        <attr name="ptrOverScroll" format="reference|boolean" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextAppearance" format="reference" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header -->
+        <attr name="ptrSubHeaderTextAppearance" format="reference" />
+
+        <!-- Style of Animation should be used displayed when pulling. -->
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0" />
+            <flag name="flip" value="0x1" />
+            <flag name="ylw" value="0x2" />
+        </attr>
+
+        <!-- Whether the user can scroll while the View is Refreshing -->
+        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
+        	able to scroll while refreshing, and behaves better. It acheives this by adding
+        	Header and/or Footer Views to the ListView.
+        -->
+        <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether the Drawable should be continually rotated as you pull. This only
+        	takes effect when using the 'Rotate' Animation Style.
+        -->
+        <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
+
+        <!-- BELOW HERE ARE DEPRECEATED. DO NOT USE. -->
+        <attr name="ptrAdapterViewBackground" format="reference|color" />
+        <attr name="ptrDrawableTop" format="reference" />
+        <attr name="ptrDrawableBottom" format="reference" />
+        <attr name="ptrUserNewHeaderLayout" format="reference|boolean" />
+    </declare-styleable>
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="headiconview">
+        <attr name="headiconview_border_thickness" format="dimension" />
+        <attr name="headiconview_border_inside_color" format="color" />
+        <attr name="headiconview_border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="slideswitch">
+        <attr name="themeColor" format="color" />
+        <attr name="isOpen" format="boolean" />
+        <attr name="shape">
+            <enum name="rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- 圆角矩形头像 -->
+    <declare-styleable name="RoundRectView">
+        <attr name="round_radian" format="integer" />
+    </declare-styleable>
+
+    <!-- 水波纹效果RippleView -->
+    <declare-styleable name="RippleView">
+        <attr name="rv_alpha" format="integer" />
+        <attr name="rv_framerate" format="integer" />
+        <attr name="rv_rippleDuration" format="integer" />
+        <attr name="rv_zoomDuration" format="integer" />
+        <attr name="rv_color" format="color" />
+        <attr name="rv_centered" format="boolean" />
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0" />
+            <enum name="doubleRipple" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension" />
+        <attr name="rv_zoom" format="boolean" />
+        <attr name="rv_zoomScale" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="GoogleProgressBar">
+        <attr name="type" format="enum">
+            <enum name="chrome_floating_circles" value="0" />
+            <enum name="folding_circles" value="1" />
+            <enum name="google_music_dices" value="2" />
+            <enum name="nexus_rotation_cross" value="3" />
+        </attr>
+        <attr name="colors" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BannerView">
+        <attr name="canLoop" format="boolean" />
+    </declare-styleable>
+
+    //zxing
+    <declare-styleable name="innerrect">
+        <attr name="inner_width" format="dimension" />
+        <attr name="inner_height" format="dimension" />
+        <attr name="inner_margintop" format="dimension" />
+        <attr name="inner_corner_color" format="color" />
+        <attr name="inner_corner_length" format="dimension" />
+        <attr name="inner_corner_width" format="dimension" />
+        <attr name="inner_scan_bitmap" format="reference" />
+        <attr name="inner_scan_speed" format="integer" />
+        <attr name="inner_scan_iscircle" format="boolean" />
+    </declare-styleable>
+
+    //认证填写资料
+    <declare-styleable name="AuthEditView">
+        <attr name="left_text" format="string" />
+        <attr name="edit_hint" format="string" />
+        <attr name="edit_input_type">
+            <enum name="text" value="1" />
+            <enum name="number" value="2" />
+        </attr>
+        <attr name="show_more_icon" format="boolean" />
+        <attr name="edit_view_max_length" format="integer" />
+    </declare-styleable>
+</resources>
